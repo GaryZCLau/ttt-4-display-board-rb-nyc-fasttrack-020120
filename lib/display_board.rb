@@ -8,12 +8,3 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
-
-names = ["John", "Jim", "Jerry", "Jonathan", "Jerold"]
-def welcome (names)
-  puts "Welcome, #{names[0]}!"
-  puts "Welcome, #{names[1]}!"
-  puts "Welcome, #{names[2]}!"
-  puts "Welcome, #{names[3]}!"
-  puts "Welcome, #{names[4]}!"
-end
